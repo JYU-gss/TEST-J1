@@ -103,7 +103,7 @@ public sealed class MainForm : Form
         bottom.ColumnStyles.Add(new ColumnStyle(SizeType.AutoSize));      // Browse folder (row 2)
 
         bottom.RowStyles.Clear();
-        bottom.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+        bottom.RowStyles.Add(new RowStyle(SizeType.AutoSize)); 
         bottom.RowStyles.Add(new RowStyle(SizeType.AutoSize));
 
         var fileNameLabel = new Label { AutoSize = true, Text = "File Name", Anchor = AnchorStyles.Left };
